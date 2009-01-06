@@ -159,9 +159,9 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_bindir}/osm2navit
 %{_libdir}/%{name}
-%exclude %{_libdir}/%{name}/graphics/libgraphics_qt*
-%exclude %{_libdir}/%{name}/graphics/libgraphics_sdl*
-%exclude %{_libdir}/%{name}/gui/libgui_cegui*
+%exclude %{_libdir}/%{name}/graphics/%{_lib}graphics_qt*
+%exclude %{_libdir}/%{name}/graphics/%{_lib}graphics_sdl*
+%exclude %{_libdir}/%{name}/gui/%{_lib}gui_cegui*
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_datadir}/%{name}
@@ -169,13 +169,13 @@ rm -rf %{buildroot}
 
 %files gui-cegui
 %defattr (-,root,root)
-%{_libdir}/%{name}/gui/libgui_cegui*
+%{_libdir}/%{name}/gui/%{_lib}gui_cegui*
 
 %files graphics-qt
 %defattr (-,root,root)
-%{_libdir}/%{name}/graphics/libgraphics_qt*
+%{_libdir}/%{name}/graphics/%{_lib}graphics_qt*
 
 %files graphics-sdl
 %defattr (-,root,root)
-%{_libdir}/%{name}/graphics/libgraphics_sdl*
+%{_libdir}/%{name}/graphics/%{_lib}graphics_sdl*
 
