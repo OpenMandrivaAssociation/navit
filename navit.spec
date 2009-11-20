@@ -43,6 +43,7 @@ BuildRequires:	gd-devel
 BuildRequires:	speech-dispatcher-devel
 BuildRequires:	gpsd-devel
 BuildRequires:	qt4-devel
+BuildRequires:	nas-devel
 Requires:	fonts-ttf-dejavu
 Suggests:	gpsd
 URL:		http://www.navit-project.org/
