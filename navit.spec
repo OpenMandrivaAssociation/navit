@@ -3,7 +3,7 @@
 Name:		navit
 Summary:	Car navigation system with routing engine
 Version:	0.1.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Source1:	http://www.navit-project.org/maps/osm_bbox_11.3,47.9,11.7,48.2.osm.bz2
 # Fix the building of translations - AdamW 2009/01
