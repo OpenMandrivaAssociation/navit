@@ -1,3 +1,4 @@
+---
 sources:
-  "navit-0.1.1.tar.gz:"	573957f5edad9055cc5225e72c63a4a7ac9ea50b
-  "osm_bbox_11.3,47.9,11.7,48.2.osm.bz2:"	32aa48037b16c56f1d265eb5ea655b3672563e15
+  navit-0.2.0.tar.gz: 1ffe25f88b35fa02c685be5e3ae8bb4f2634069d
+  osm_bbox_11.3,47.9,11.7,48.2.osm.bz2: 32aa48037b16c56f1d265eb5ea655b3672563e15
