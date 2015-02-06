@@ -1,7 +1,7 @@
 Name:		navit
 Summary:	Car navigation system with routing engine
 Version:	0.2.0
-Release:	1
+Release:	2
 Group:		Sciences/Other
 License:	GPLv2+
 URL:		http://www.navit-project.org/
