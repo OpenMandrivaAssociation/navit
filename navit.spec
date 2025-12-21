@@ -7,6 +7,11 @@ License:	GPLv2+
 URL:		https://www.navit-project.org/
 Source0:	http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Source1:	http://www.navit-project.org/maps/osm_bbox_11.3,47.9,11.7,48.2.osm.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gd-devel
 BuildRequires:	gettext-devel
 BuildRequires:	nas-devel
